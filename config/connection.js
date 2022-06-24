@@ -1,5 +1,6 @@
 // import the Sequelize constructor from the library
 const Sequelize = require('sequelize');
+require('dotenv').config();
 
 // create connection to our database
 const sequelize = new Sequelize('just_tech_news_db','root', 'Nalabean13',{
